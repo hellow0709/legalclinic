@@ -42,6 +42,8 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/6b0af4bcb3.js" crossorigin="anonymous"></script>
-<script> document.getElementById("consultationForm").addEventListener("submit", function(event){ event.preventDefault(); // 기본 동작을 막는 코드 const agreeCheckbox = document.getElementById("agree"); if(agreeCheckbox.checked) { location.href = "https://lsjlegalclinic.channel.io"; // 원하는 사이트 주소로 변경해주세요. alert('상담 화면으로 이동되었습니다.'); } else { alert("이용약관에 동의하지 않으면 상담이 제한됩니다."); } }); </script>
+<script> document.getElementById("consultationForm").addEventListener("submit", function(event){ event.preventDefault(); // 기본 동작을 막는 코드 
+	const agreeCheckbox = document.getElementById("agree"); if(agreeCheckbox.checked) { location.href = "https://lsjlegalclinic.channel.io"; 
+	alert('상담 화면으로 이동되었습니다.'); } else { alert("이용약관에 동의하지 않으면 상담이 제한됩니다."); } }); </script>
 </body>
 </html>
